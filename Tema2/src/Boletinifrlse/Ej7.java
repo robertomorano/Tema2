@@ -18,8 +18,10 @@ public class Ej7 {
 			System.out.println("2");
 			}else if(n1 <1000) {
 				System.out.println("3");
-			}else if(n1<10000) {}
+			}else if(n1<10000) {
 				System.out.println("4");
 			}
+		sc.close();
+	}
 
 }

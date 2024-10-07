@@ -21,6 +21,7 @@ public class Ej8 {
 		} else if ((n1>=9) && (n1<=10)) {
 			System.out.println("Sobresaliente");
 			}
+		sc.close();
 	}
-
+		
 }
