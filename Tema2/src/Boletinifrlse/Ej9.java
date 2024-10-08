@@ -18,8 +18,8 @@ public class Ej9 {
 		System.out.println("piedra papel o tijeras");
 		// Leer el numero introducido por pantalla
 		resp2 = sc.nextLine();
-		if ((resp1.equals(PIEDRA)) && (resp2.equals(PIEDRA) || (resp1 == PAPEL) && (resp2 == PAPEL)
-				|| (resp1 == TIJERAS) && (resp2 == TIJERAS))) {
+		if ((resp1.equals(PIEDRA)) && (resp2.equals(PIEDRA) || (resp1.equals(PAPEL)) && (resp2.equals(PAPEL))
+				|| (resp1.equals(TIJERAS)) && (resp2.equals(TIJERAS)))) {
 			System.out.println("Empate");
 		} else if ((resp1 == PAPEL) && (resp2 == PIEDRA) || (resp1 == TIJERAS) && (resp2 == PAPEL)
 				|| (resp1 == PIEDRA) && (resp2 == TIJERAS)) {

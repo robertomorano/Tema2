@@ -24,7 +24,8 @@ public class Ej6 {
 		n3 = sc.nextInt();
 		raiz = ((n2*n2)-4*n1*n3);
 		if (raiz>=0) {
-			x = ((-n2+raiz)/(2*n3));
+			x = ((-n2+Math.sqrt(raiz))/(2*n3));
+			System.out.println(x);
 		}else {
 			System.out.println("No se puede ejetar");}
 		
