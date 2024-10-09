@@ -1,21 +1,22 @@
-package Boletinifrlse;
+package boletini1;
 
 import java.util.Scanner;
 
-public class Ej1 {
+public class Ej3 {
 
 	public static void main(String[] args) {
-		int n;
+		double n1;
 		Scanner sc = new Scanner(System.in);
 		// Preguntamos
 		System.out.println("eCantidad para ver si es par");
 		// Leer el numero introducido por pantalla
-		n = sc.nextInt();
-		if (n%2 == 0) {
-			System.out.println("Es par");
+		n1 = sc.nextDouble();
+		if (((n1 > -1) && (n1<1)) && (n1!=0)) {
+			System.out.println("casi cero");
 		}else {
-			System.out.println("impar");
-		}
+			System.out.println("No lo son");
+
 	}
 
-}
+	}
+	}
