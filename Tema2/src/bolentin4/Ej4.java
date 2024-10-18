@@ -13,9 +13,9 @@ public class Ej4 {
 		int contador0 = 0;
 		int contadorNegativo = 1;
 		Scanner sc = new Scanner(System.in);
+		num1 = sc.nextInt();
+		//bucle para operar y comprobar si el numero es negativo o 0
 		while (contador <= 0){
-			System.out.println("Dame numeros");
-			num1 = sc.nextInt();
 			if (num1 > 0) {
 				num2 += num1;
 			}else if(num1 < 0) {
@@ -27,6 +27,8 @@ public class Ej4 {
 			
 			num2 += num1;
 			contador++;
+			System.out.println("Dame numeros");
+			num1 = sc.nextInt();
 		}
 		if (contadorNegativo == 0)
 		media = (double)media/contadorNegativo;
