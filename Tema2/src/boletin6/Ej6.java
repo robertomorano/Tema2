@@ -21,6 +21,7 @@ public class Ej6 {
 			}
 		}
 		System.out.println("Hay "+susp+" suspensos");
+		sc.close();
 	}
 
 }

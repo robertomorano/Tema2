@@ -24,7 +24,7 @@ public class Ej8 {
 		for(int i = menor; i <= mayor;i++) {
 			System.out.print(i+" ");
 		}
-
+		sc.close();
 	}
 
 }

@@ -12,7 +12,7 @@ public class Ej2 {
 		for(int i = 0; i<=num1/3;i++) {
 			System.out.println(i*3);
 		}
-
+		sc.close();
 	}
 
 }

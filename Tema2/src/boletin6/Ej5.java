@@ -17,7 +17,7 @@ public class Ej5 {
 			factorial *= i;
 		}
 		System.out.print("1 = "+ factorial);
-
+		sc.close();
 	}
 
 }

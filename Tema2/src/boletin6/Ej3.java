@@ -22,7 +22,7 @@ public class Ej3 {
 			counter++;
 		}
 		System.out.println(suma/counter);
-
+		sc.close();
 	}	
 
 }

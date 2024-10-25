@@ -12,7 +12,7 @@ public class Ej1 {
 		for(int i = 0; i<num1;i++) {
 			System.out.println(i+1);
 		}
-
+		sc.close();
 	}
 	
 }
