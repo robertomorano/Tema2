@@ -15,6 +15,7 @@ public class Ej3 {
 		boolean error = false;
 		int num=0;
 		int numMod=0;
+		int espMedio=0;
 		Scanner sc = new Scanner(System.in);
 		do {
 			try {
@@ -28,11 +29,31 @@ public class Ej3 {
 				sc.nextLine();
 			}
 		} while (error);
-		numMod=num;
-		for(int i=0;i<numMod;i++) {
+		numMod=1;
+		espMedio=(((num-2)*2)-1);
+		for(int i=0;i<num;i++) {
 			System.out.print("* ");
 		}
 		System.out.print("\n");
-		for(int j=0)
+		for(int j=1;j<num;j++) {
+			if (j==num-1) {
+				for(int i=1;i<num;i++) {
+					System.out.print(" ");
+				}
+				System.out.print("*");
+			}else {
+				for (int i = 0;i<numMod;i++) {
+					System.out.print(" ");
+				}
+				System.out.print("*");
+				for(int i=espMedio;i>0;i--) {
+					System.out.print(" ");
+				}
+				System.out.print("*");
+				System.out.println("");
+				espMedio-=2;
+				numMod++;
+			}
+		}
 	}
 }
